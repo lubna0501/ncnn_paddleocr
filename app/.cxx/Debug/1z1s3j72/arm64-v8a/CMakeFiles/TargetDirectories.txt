@@ -1,0 +1,3 @@
+C:/Users/lubna/AndroidStudioProjects/ncnn_paddleocr-main/app/.cxx/Debug/1z1s3j72/arm64-v8a/CMakeFiles/paddleocrncnn.dir
+C:/Users/lubna/AndroidStudioProjects/ncnn_paddleocr-main/app/.cxx/Debug/1z1s3j72/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/lubna/AndroidStudioProjects/ncnn_paddleocr-main/app/.cxx/Debug/1z1s3j72/arm64-v8a/CMakeFiles/rebuild_cache.dir

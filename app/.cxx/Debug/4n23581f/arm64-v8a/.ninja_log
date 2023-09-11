@@ -1,0 +1,20 @@
+# ninja log v5
+2	2111	7141305105157912	CMakeFiles/paddleocrncnn.dir/common.cpp.o	5922aac668ecba17
+9	2214	7141305106158747	CMakeFiles/paddleocrncnn.dir/paddleocr_ncnn.cpp.o	37c6d5e439b769e4
+18	2229	7141305106158747	CMakeFiles/paddleocrncnn.dir/clipper.cpp.o	3cd4d4f3bab6be8a
+2230	2850	7141305111966585	C:/Users/lubna/AndroidStudioProjects/ncnn_paddleocr-main/app/build/intermediates/cxx/Debug/4n23581f/obj/arm64-v8a/libpaddleocrncnn.so	f41a768bb82a99a3
+1	13	0	clean	c54bdffa72b1f185
+0	12	0	clean	c54bdffa72b1f185
+1	13	0	clean	c54bdffa72b1f185
+12	2716	7141306444193079	CMakeFiles/paddleocrncnn.dir/common.cpp.o	5922aac668ecba17
+41	2888	7141306446000564	CMakeFiles/paddleocrncnn.dir/paddleocr_ncnn.cpp.o	37c6d5e439b769e4
+61	2917	7141306446198938	CMakeFiles/paddleocrncnn.dir/clipper.cpp.o	3cd4d4f3bab6be8a
+2918	3469	7141306451208252	C:/Users/lubna/AndroidStudioProjects/ncnn_paddleocr-main/app/build/intermediates/cxx/Debug/4n23581f/obj/arm64-v8a/libpaddleocrncnn.so	f41a768bb82a99a3
+43	2768	7141387642219394	CMakeFiles/paddleocrncnn.dir/common.cpp.o	5922aac668ecba17
+2770	3913	7141387653122347	C:/Users/lubna/AndroidStudioProjects/ncnn_paddleocr-main/app/build/intermediates/cxx/Debug/4n23581f/obj/arm64-v8a/libpaddleocrncnn.so	f41a768bb82a99a3
+1	31	0	clean	c54bdffa72b1f185
+1	22	0	clean	c54bdffa72b1f185
+302	3197	7141436632544434	CMakeFiles/paddleocrncnn.dir/common.cpp.o	5922aac668ecba17
+210	3469	7141436635385642	CMakeFiles/paddleocrncnn.dir/paddleocr_ncnn.cpp.o	37c6d5e439b769e4
+370	3473	7141436635228888	CMakeFiles/paddleocrncnn.dir/clipper.cpp.o	3cd4d4f3bab6be8a
+3474	4062	7141436641015591	C:/Users/lubna/AndroidStudioProjects/ncnn_paddleocr-main/app/build/intermediates/cxx/Debug/4n23581f/obj/arm64-v8a/libpaddleocrncnn.so	f41a768bb82a99a3

@@ -1,0 +1,50 @@
+//file:noinspection GrDeprecatedAPIUsage
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33  // Use compileSdkVersion instead of compileSdk
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/jni']
+        }
+    }
+    defaultConfig {
+        applicationId "com.tencent.paddleocrncnn"
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            moduleName "paddleocrncnn"
+            //noinspection ChromeOsAbiSupport
+            abiFilters "armeabi-v7a", "arm64-v8a"
+            android.ndkVersion "25.1.8937393"
+        }
+
+    }
+
+    externalNativeBuild {
+        cmake {
+            path = file("src/jni/CMakeLists.txt")
+            version = "3.22.1"
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'  // Use the latest stable version
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    // Use the latest stable version
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //noinspection GradleCompatible
+  //  implementation 'com.android.support:support-v4:28.0.0'
+}
